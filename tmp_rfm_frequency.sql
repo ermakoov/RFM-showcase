@@ -30,3 +30,4 @@ WHERE uv.id NOT IN (SELECT user_id
 					WHERE status = 4
 					GROUP BY user_id)
 GROUP BY uv.id;
+

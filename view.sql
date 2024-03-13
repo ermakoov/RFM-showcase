@@ -11,4 +11,4 @@ CREATE VIEW orderstatuslog_view AS
 SELECT * FROM production.orderstatuslog o  
 
 CREATE VIEW orderstatuses_view AS 
-SELECT * FROM production.orderstatuses o 
+SELECT * FROM production.orderstatuses o   

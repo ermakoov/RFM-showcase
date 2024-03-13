@@ -1,4 +1,4 @@
-INSERT INTO analysis.tmp_rfm_recency -- заполняем временную таблицу для метрики recency
+INSERT INTO analysis.tmp_rfm_recency -- заполняем временную таблицу для метрики recency 
 SELECT user_id id, recency 
 FROM (
 	SELECT user_id, 

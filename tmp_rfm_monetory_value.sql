@@ -29,4 +29,4 @@ WHERE uv.id NOT IN (SELECT user_id
 					FROM analysis.orders_view ov2
 					WHERE status = 4
 					GROUP BY user_id)
-GROUP BY uv.id;
+GROUP BY uv.id;   
